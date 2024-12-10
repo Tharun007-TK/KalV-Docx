@@ -1,0 +1,47 @@
+.footer-container {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgba(16, 6, 159, 1); /* Dark blue background */
+    padding: 20px;
+    color: white;
+    align-items: flex-start; /* Align items vertically */
+  }
+  
+  .social-media-icons {
+    margin-right: 300px; /* Add space between icons and columns */
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+  }
+  
+  .social-icons {
+    width: 120px; /* Adjust size as per your requirement */
+    height: auto;
+  }
+  
+  .menu-container {
+    display: flex;
+    flex-direction: row; /* Columns next to each other */
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px; /* Space between Explore and Resources */
+  }
+  
+  .column h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .column a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .column a:hover {
+    text-decoration: underline;
+  }
