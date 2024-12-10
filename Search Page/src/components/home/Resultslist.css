@@ -1,0 +1,12 @@
+.results-list {
+    padding: 1rem;
+  }
+  
+  .result-card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: #f9f9f9;
+  }
+  

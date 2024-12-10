@@ -1,0 +1,134 @@
+/* Main Container */
+.content-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Left Filter Panel */
+  .filter-panel {
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .filter-panel h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .checkbox-group label {
+    display: block;
+    margin: 8px 0;
+  }
+  
+  .dropdown-group .dropdown {
+    margin-top: 15px;
+  }
+  
+  .dropdown-header {
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #e9ecef;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .dropdown-header:hover {
+    background-color: #d6d8db;
+  }
+  
+  .dropdown-content {
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    animation: slide-down 0.3s ease-out;
+  }
+  
+  @keyframes slide-down {
+    from {
+      max-height: 0;
+      opacity: 0;
+    }
+    to {
+      max-height: 200px;
+      opacity: 1;
+    }
+  }
+  
+  /* Buttons */
+  .update-btn,
+  .reset-btn,
+  .save-btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .update-btn:hover,
+  .reset-btn:hover,
+  .save-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .download-links {
+    margin-top: 10px;
+  }
+  
+  .download-links a {
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 5px;
+  }
+  
+  /* Right Results Section */
+  .results {
+    width: 70%;
+  }
+  
+  .result-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .result-title {
+    font-size: 18px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .result-title:hover {
+    text-decoration: underline;
+  }
+  
+  .result-organization {
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .result-details {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .result-details li {
+    margin: 5px 0;
+  }
+  

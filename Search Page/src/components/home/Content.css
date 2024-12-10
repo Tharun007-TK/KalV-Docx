@@ -1,0 +1,91 @@
+.search-results-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .header h2 {
+    font-size: 24px;
+  }
+  
+  .header p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Filter Panel */
+  .filter-panel {
+    width: 25%;
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
+  }
+  
+  .keywords,
+  .procurement-stage {
+    margin-bottom: 20px;
+  }
+  
+  .keywords input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .checkbox-group {
+    margin-top: 10px;
+  }
+  
+  .checkbox-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Results Section */
+  .results {
+    flex: 1;
+  }
+  
+  .result-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .result-title {
+    color: #004080;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .result-organization {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .result-details {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .result-details li {
+    margin-bottom: 5px;
+  }
+  
+  .result-details strong {
+    font-weight: bold;
+  }
+  
