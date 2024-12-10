@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find a Contract</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Find a Contract</h1>
+        <p>Explore and search business opportunities</p>
+    </header>
+    <main>
+        <form>
+            <label for="keywords">Keywords</label>
+            <input type="text" id="keywords" name="keywords" placeholder="e.g., contract title, description, buyer">
+            <a href="#">How can I do an advanced search?</a>
+
+            <fieldset>
+                <legend>Contract Location</legend>
+                <label><input type="radio" name="location" value="all" checked> All locations</label>
+                <label><input type="radio" name="location" value="region"> Region</label>
+                <label><input type="radio" name="location" value="postcode"> Postcode</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Procurement Stage</legend>
+                <label><input type="checkbox" name="stage" value="early"> Early Engagement</label>
+                <label><input type="checkbox" name="stage" value="future"> Future Opportunity</label>
+            </fieldset>
+
+            <button type="submit">Search</button>
+        </form>
+    </main>
+    <footer>
+        <p>If you have concerns, contact the <a href="#">Public Procurement Review Service</a>.</p>
+    </footer>
+</body>
+</html>
